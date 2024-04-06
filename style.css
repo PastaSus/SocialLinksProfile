@@ -1,0 +1,155 @@
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+/* body { will be activated later
+    background-color: var(--Off-Black);
+} */
+/* variable colors */
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%);  
+    /* Green for hover */
+}
+
+html,
+body{
+    background-color: var(--Off-Black);
+    margin: auto;
+    align-content: center;
+    position: relative;
+    justify-content: center;
+    height: 100%;
+    align-self: center;
+}
+
+.name {
+    color: var(--White);
+    font-family: 'inter',sans-serif;
+    margin-bottom: 0px;
+}
+
+.location {
+    font-family: 'inter',sans-serif;
+    color: var(--Green);
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.bio {
+    color: var(--White);
+    font-family: 'inter',sans-serif;
+    font-weight: 400;
+    padding-top: 0px;
+}
+
+.paragraph {
+    font-family: 'inter',sans-serif;
+    justify-content: center;
+    background-color: var(--Grey);
+    padding-left: auto;
+    padding-right: auto;
+    font-size: 14px;
+    color: var(--White);
+    padding: 15px 85px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: none;
+}
+
+/* a:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+    font-weight: 700;
+} */
+
+/* active state */
+.paragraph:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+    font-weight: 700;
+}
+
+.profileimg {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 25px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 5px;
+    text-wrap: nowrap;
+    height: 100% ;
+    display: table-cell;
+    margin-bottom: auto;
+}
+
+.contentcontainer {
+    background-color: var(--Dark-Grey);
+    width: auto;
+    margin: 0px;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding-right: auto;
+    padding-left: auto;
+    padding-top: 1vh;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 1440px) {
+    .contentcontainer {
+        width: auto; /* Adjust to your desired width */
+        height: auto;
+        
+    }
+    .content {
+        width: 20em;
+        padding: 1em;
+    }
+    .profileimg {
+        width: 30%;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+    /* .paragraph {
+        align-self: center;
+        align-content: center;
+        text-align: center;
+        font-weight: 600;
+    } */
+}
+
+
+
+
+
