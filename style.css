@@ -263,7 +263,7 @@ main {
   background-color: var(--Dark-Grey);
   padding: var(--spacing-32);
   border-radius: 11px;
-  min-width: 20rem;
+  min-width: 23rem;
 }
 
 .social-links-profile .profileimg {
@@ -285,7 +285,7 @@ main {
 
 .bio {
   color: var(--White);
-  font-size: var(--font-size-12);
+  font-size: var(--font-size-14);
   margin-top: var(--spacing-16);
   font-weight: 400;
 }
