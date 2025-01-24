@@ -263,7 +263,7 @@ main {
   background-color: var(--Dark-Grey);
   padding: var(--spacing-32);
   border-radius: 11px;
-  min-width: 27rem;
+  min-width: 25rem;
 }
 
 .social-links-profile .profileimg {
@@ -287,6 +287,7 @@ main {
   color: var(--White);
   font-size: var(--font-size-14);
   margin-top: var(--spacing-16);
+  margin-bottom: var(--spacing-8);
   font-weight: 400;
 }
 
@@ -336,7 +337,7 @@ ul li:last-child {
 @media (max-width: 34em) {
   .social-links-profile {
     padding: var(--spacing-24);
-    min-width: 18rem;
+    min-width: 20rem;
   }
 
   /* .social-links-profile .profileimg {
@@ -358,7 +359,11 @@ ul li:last-child {
   }
 
   .bio {
-    font-size: var(--font-size-12);
+    font-size: var(--font-size-14);
     font-weight: 400;
+  }
+
+  ul.links li {
+    padding: var(--spacing-8);
   }
 }
