@@ -263,7 +263,7 @@ main {
   background-color: var(--Dark-Grey);
   padding: var(--spacing-32);
   border-radius: 11px;
-  min-width: 23rem;
+  min-width: 27rem;
 }
 
 .social-links-profile .profileimg {
@@ -296,7 +296,11 @@ ul {
 
 .link {
   font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
   font-size: var(--font-size-14);
+  width: 100%;
+  color: var(--White);
 }
 
 .links {
@@ -306,9 +310,19 @@ ul {
   margin-bottom: 0;
 }
 
+ul.links li:hover,
+ul.links li:active {
+  background-color: var(--Green);
+}
+
+ul.links li a:hover,
+ul.links li a:active {
+  color: var(--Off-Black);
+}
+
 ul li {
   color: var(--White);
-  padding: var(--spacing-8);
+  padding: var(--spacing-12);
   text-align: center;
   background-color: var(--Grey);
   margin-bottom: var(--spacing-16);
